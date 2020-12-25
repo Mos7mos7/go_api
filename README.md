@@ -2,24 +2,24 @@
 
 ## Endpoints
 
-### Get All Books
+### Get All Records
 ``` bash
-GET api/books
+GET api/Records
 ```
-### Get Single Book
+### Get Single Record
 ``` bash
-GET api/books/{id}
-```
-
-### Delete Book
-``` bash
-DELETE api/books/{id}
+GET api/Records/{id}
 ```
 
-### Create Book
+### Delete Record
 ``` bash
-POST api/books
+DELETE api/Records/{id}
+```
 
-### Update Book
+### Create Record
 ``` bash
-PUT api/books/{id}
+POST api/Records
+
+### Update Record
+``` bash
+PUT api/Records/{id}
